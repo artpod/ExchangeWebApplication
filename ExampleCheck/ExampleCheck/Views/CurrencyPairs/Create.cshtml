@@ -1,0 +1,51 @@
+﻿@model ExampleCheck.CurrencyPair
+
+@{
+    ViewData["Title"] = "Створити";
+}
+
+<h1>Створити</h1>
+
+<h4>Валютна пара</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            
+            <div class="form-group">
+                <label asp-for="FirstCurrency" class="control-label"></label>
+                <select asp-for="FirstCurrency" class ="form-control" asp-items="ViewBag.FirstCurrency"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="SecondCurrency" class="control-label"></label>
+                <select asp-for="SecondCurrency" class ="form-control" asp-items="ViewBag.SecondCurrency"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Price" class="control-label"></label>
+                <input asp-for="Price" class="form-control" />
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+           @* <div class="form-group">
+                <label asp-for="PairType" class="control-label"></label>
+                <input asp-for="PairType" class="form-control" />
+                <span asp-validation-for="PairType" class="text-danger"></span>
+            </div> *@
+            <div class="form-group">
+                <label asp-for="PairType" class="control-label"></label>
+                <select asp-for="PairType" class ="form-control" asp-items="ViewBag.PairType"></select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Повернутись назад</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

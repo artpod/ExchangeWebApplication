@@ -1,0 +1,30 @@
+﻿@model ExampleCheck.ExchangeClient
+
+@{
+    ViewData["Title"] = "";
+}
+
+<h1>Деталі</h1>
+
+<div>
+    <h4>Клієнт біржі</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ExchangeClient1Navigation)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ExchangeClient1Navigation.Name)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ExchangeNavigation)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ExchangeNavigation.Name)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Редагувати</a> |
+    <a asp-action="Index" asp-route-id="@Model?.Id">Повернутись</a>
+</div>

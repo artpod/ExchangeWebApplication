@@ -1,0 +1,66 @@
+﻿@model IEnumerable<ExampleCheck.Order>
+
+@{
+    ViewData["Title"] = "Угоди";
+}
+
+<h1>Угоди</h1>
+
+<p>
+    @{
+        if (User.IsInRole("admin")) 
+        {
+        <a asp-action="Create">Створити новий запис</a>
+        }
+     }
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Value)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ExchangeNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pair.FirstCurrencyNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pair.SecondCurrencyNavigation)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Value)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ExchangeNavigation.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Pair.FirstCurrencyNavigation.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Pair.SecondCurrencyNavigation.Name)
+            </td>
+            <td>
+                    @{
+                        if (User.IsInRole("admin"))
+                        {
+                            <a asp-action="Edit" asp-route-id="@item.Id">Редагувати</a>
+                        }}|
+                        @{
+                        if (User.IsInRole("admin"))
+                        {
+               @* <a asp-action="Details" asp-route-id="@item.Id">Подробиці</a> |*@
+                <a asp-action="Delete" asp-route-id="@item.Id">Видалити</a>
+                }}
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

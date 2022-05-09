@@ -1,0 +1,66 @@
+﻿@model IEnumerable<ExampleCheck.CurrencyPair>
+
+@{
+    ViewData["Title"] = "Валютні пари";
+}
+
+<h1>Валютні пари</h1>
+
+<p>
+    @{
+        if (User.IsInRole("admin")) 
+        {
+        <a asp-action="Create">Створити новий запис</a>
+        }
+     }
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PairType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstCurrencyNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SecondCurrencyNavigation)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PairType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FirstCurrencyNavigation.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SecondCurrencyNavigation.Name)
+            </td>
+            <td>
+                @{
+                if (User.IsInRole("admin")) 
+                {
+                <a asp-action="Edit" asp-route-id="@item.Id">Редагувати</a>
+                }}
+                | <a asp-action="Orders" asp-route-id="@item.Id">Угоди</a> |
+                @{
+                if (User.IsInRole("admin")) 
+                {
+                <a asp-action="Delete" asp-route-id="@item.Id">Видалити</a>
+                }}
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

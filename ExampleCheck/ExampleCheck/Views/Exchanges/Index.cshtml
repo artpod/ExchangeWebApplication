@@ -1,0 +1,79 @@
+﻿@model IEnumerable<ExampleCheck.Exchange>
+
+@{
+    ViewData["Title"] = "Біржі";
+}
+
+<h1>Біржі</h1>
+
+<p>
+    @{
+        if (User.IsInRole("admin")) 
+        {
+        <a asp-action="Create">Створити новий запис</a>
+        }
+     }
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Fee)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Fee)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @{
+                if (User.IsInRole("admin")) 
+                {
+                <a asp-action="Edit" asp-route-id="@item.Id">Редагувати</a> 
+                }}
+                | <a asp-action="Orders" asp-route-id="@item.Id">Угоди</a> |
+                @{
+                if (User.IsInRole("admin")) 
+                {
+                <a asp-action="Delete" asp-route-id="@item.Id">Видалити</a>
+                }}
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+<div class="container">
+    <div id="chart1"></div>
+</div>
+@section scripts{
+    <script type "text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script>
+    google.charts.load('current', { 'packages': ['corechart'] });
+    google.charts.setOnLoadCallback(drawChart);
+
+        function drawChart() {
+
+            $.get('/api/Chart/JsonData', function(JsonData) {
+                data = google.visualization.arrayToDataTable(JsonData, false);
+                var option = {
+                    title: "Співвідношення бірж та кількості угод",
+                    width: 500,
+                    height: 400
+                };
+                chart = new google.visualization.ColumnChart(document.getElementById('chart1'));
+                chart.draw(data, option);
+            })
+        }
+    </script>
+}

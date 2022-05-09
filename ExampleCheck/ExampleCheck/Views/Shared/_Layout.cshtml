@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - ExampleCheck</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap_quartz.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/ExampleCheck.styles.css" asp-append-version="true" />
+</head>
+<style>
+    div#centerDiv {
+        width: 100%;
+        text-align: center;
+      
+    }
+    ul.centerUL {
+        margin: 2px auto;
+        line-height: 1.4;
+        padding-left: 0;
+        
+    }
+    .centerUL li {
+        display: inline;
+        text-align: center;
+        margin-left: 100px;
+       @* height: 50px;
+        width: 100px;
+        border-radius: 50%;*@
+    }
+    div {
+
+    }
+    body {
+        background-image: url(https://wallpaperaccess.com/full/395716.jpg);
+        background-size: 100%;
+    }
+    header {
+        background-image: url(
+    }
+    .ellipse li{
+        background-color: #45597e;
+        height: 50px;
+        width: 100px;
+        border-radius: 50%;
+    }
+</style>
+
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3"  style="background-image: linear-gradient(grey, black)">
+            <div class="container-fluid">
+            <div style="background-image:linear-gradient(to bottom right, white, grey);">
+                <a class="navbar-brand" asp-area="" asp-controller="" asp-action="" style="font-size:20px">Головне меню</a> </div>
+                
+               @* <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button> *@
+                <div id="centerDiv" class="navbar-collapse collapse d-sm-inline-flex align-content-between">
+                    <ul class="navbar-nav centerUL" >
+                       @* <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Домашня сторінка</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Приватність</a>
+                        </li>*@
+                         <li class="nav-item" style="background-image:linear-gradient(to bottom right, white, grey)">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Roles" asp-action="Index">Користувачі</a>
+                        </li>
+                        <li class="nav-item" style="background-image:linear-gradient(to bottom right, white, grey)">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Currencies" asp-action="Index">Валюти</a>
+                        </li>
+                        <li class="nav-item" style="background-image:linear-gradient(to bottom right, white, grey)">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Exchanges" asp-action="Index">Біржі</a>
+                        </li>
+                        <li class="nav-item" style="background-image:linear-gradient(to bottom right, white, grey)">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Customers" asp-action="Index">Клієнти</a>
+                        </li>  
+                        <li class="nav-item" style="background-image:linear-gradient(to bottom right, white, grey)">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="CurrencyPairs" asp-action="Index">Торгові пари</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+   @* <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2022 - ExampleCheck - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer> *@
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

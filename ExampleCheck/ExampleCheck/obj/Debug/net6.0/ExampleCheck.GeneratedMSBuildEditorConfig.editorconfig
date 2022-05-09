@@ -1,0 +1,196 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ExampleCheck
+build_property.RootNamespace = ExampleCheck
+build_property.ProjectDir = C:\Users\Admin\source\repos\ExampleCheck\ExampleCheck\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = C:\Users\Admin\source\repos\ExampleCheck\ExampleCheck
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Admin/source/repos/ExampleCheck/ExampleCheck/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/ExampleCheck/ExampleCheck/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/ExampleCheck/ExampleCheck/Views/Currencies/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VycmVuY2llc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/ExampleCheck/ExampleCheck/Views/Currencies/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VycmVuY2llc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/ExampleCheck/ExampleCheck/Views/Currencies/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VycmVuY2llc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/ExampleCheck/ExampleCheck/Views/Currencies/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VycmVuY2llc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/ExampleCheck/ExampleCheck/Views/Currencies/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VycmVuY2llc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/ExampleCheck/ExampleCheck/Views/CurrencyPairs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VycmVuY3lQYWlyc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/ExampleCheck/ExampleCheck/Views/CurrencyPairs/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VycmVuY3lQYWlyc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/ExampleCheck/ExampleCheck/Views/CurrencyPairs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VycmVuY3lQYWlyc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/ExampleCheck/ExampleCheck/Views/CurrencyPairs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VycmVuY3lQYWlyc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/ExampleCheck/ExampleCheck/Views/CurrencyPairs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VycmVuY3lQYWlyc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/ExampleCheck/ExampleCheck/Views/Customers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/ExampleCheck/ExampleCheck/Views/Customers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/ExampleCheck/ExampleCheck/Views/Customers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/ExampleCheck/ExampleCheck/Views/Customers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/ExampleCheck/ExampleCheck/Views/Customers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/ExampleCheck/ExampleCheck/Views/ExchangeClients/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhjaGFuZ2VDbGllbnRzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/ExampleCheck/ExampleCheck/Views/ExchangeClients/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhjaGFuZ2VDbGllbnRzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/ExampleCheck/ExampleCheck/Views/ExchangeClients/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhjaGFuZ2VDbGllbnRzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/ExampleCheck/ExampleCheck/Views/ExchangeClients/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhjaGFuZ2VDbGllbnRzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/ExampleCheck/ExampleCheck/Views/ExchangeClients/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhjaGFuZ2VDbGllbnRzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/ExampleCheck/ExampleCheck/Views/ExchangeClients/Indexer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhjaGFuZ2VDbGllbnRzXEluZGV4ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/ExampleCheck/ExampleCheck/Views/Exchanges/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhjaGFuZ2VzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/ExampleCheck/ExampleCheck/Views/Exchanges/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhjaGFuZ2VzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/ExampleCheck/ExampleCheck/Views/Exchanges/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhjaGFuZ2VzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/ExampleCheck/ExampleCheck/Views/Exchanges/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhjaGFuZ2VzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/ExampleCheck/ExampleCheck/Views/Exchanges/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhjaGFuZ2VzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/ExampleCheck/ExampleCheck/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/ExampleCheck/ExampleCheck/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/ExampleCheck/ExampleCheck/Views/Orders/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/ExampleCheck/ExampleCheck/Views/Orders/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/ExampleCheck/ExampleCheck/Views/Orders/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/ExampleCheck/ExampleCheck/Views/Orders/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/ExampleCheck/ExampleCheck/Views/Orders/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/ExampleCheck/ExampleCheck/Views/Orders/Indexer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXEluZGV4ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/ExampleCheck/ExampleCheck/Views/Orders/MainIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXE1haW5JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/ExampleCheck/ExampleCheck/Views/Roles/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/ExampleCheck/ExampleCheck/Views/Roles/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/ExampleCheck/ExampleCheck/Views/Roles/UserList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcVXNlckxpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/ExampleCheck/ExampleCheck/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/ExampleCheck/ExampleCheck/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/ExampleCheck/ExampleCheck/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/ExampleCheck/ExampleCheck/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/ExampleCheck/ExampleCheck/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-4gkike94mo

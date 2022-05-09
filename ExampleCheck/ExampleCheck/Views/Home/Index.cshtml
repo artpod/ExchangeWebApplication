@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Домашня сторінка";
+}
+
+@if(User.Identity.IsAuthenticated)
+{
+    <div class="text-center">
+    <h1 class="display-4">Функціональний додаток для моніторингу біржа-користувач</h1>
+    </div>
+
+    <p>@User.Identity.Name</p>
+    <form method="post" asp-controller="Account" asp-action="Logout">
+    <input type="submit" value="Вихід" />
+    </form>
+}
+else
+{
+    
+<a asp-controller="Account" asp-action="Login">Вхід</a>
+<a asp-controller="Account" asp-action="Register">Реєстрація</a>
+
+}

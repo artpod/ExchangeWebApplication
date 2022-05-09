@@ -1,0 +1,45 @@
+﻿@model ExampleCheck.CurrencyPair
+
+@{
+    ViewData["Title"] = "Видалити";
+}
+
+<h1>Видалити</h1>
+
+<h3>Ви впевнені що хочете видалити цей запис?</h3>
+<div>
+    <h4>Валютна пара</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Price)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.PairType)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.PairType)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.FirstCurrencyNavigation)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.FirstCurrencyNavigation.Id)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.SecondCurrencyNavigation)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SecondCurrencyNavigation.Id)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-action="Index">Повернутись назад</a>
+    </form>
+</div>
